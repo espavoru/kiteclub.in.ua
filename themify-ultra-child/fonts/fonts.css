@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Museo Sans';
+    src: url('exljbris_-_museosanscyrl-100.eot');
+    src: url('exljbris_-_museosanscyrl-100.eot?#iefix') format('embedded-opentype'),
+         url('exljbris_-_museosanscyrl-100.woff2') format('woff2'),
+         url('exljbris_-_museosanscyrl-100.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans';
+    src: url('exljbris_-_museosanscyrl-300.eot');
+    src: url('exljbris_-_museosanscyrl-300.eot?#iefix') format('embedded-opentype'),
+         url('exljbris_-_museosanscyrl-300.woff2') format('woff2'),
+         url('exljbris_-_museosanscyrl-300.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans';
+    src: url('exljbris_-_museosanscyrl-300italic.eot');
+    src: url('exljbris_-_museosanscyrl-300italic.eot?#iefix') format('embedded-opentype'),
+         url('exljbris_-_museosanscyrl-300italic.woff2') format('woff2'),
+         url('exljbris_-_museosanscyrl-300italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Museo Sans';
+    src: url('exljbris_-_museosanscyrl-700.eot');
+    src: url('exljbris_-_museosanscyrl-700.eot?#iefix') format('embedded-opentype'),
+         url('exljbris_-_museosanscyrl-700.woff2') format('woff2'),
+         url('exljbris_-_museosanscyrl-700.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Curl';
+    src: url('exljbris_-_museo_cyrl_100.eot');
+    src: url('exljbris_-_museo_cyrl_100.eot?#iefix') format('embedded-opentype'),
+         url('exljbris_-_museo_cyrl_100.woff2') format('woff2'),
+         url('exljbris_-_museo_cyrl_100.ttf') format('truetype');
+		font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Curl';
+    src: url('exljbris_-_museo_cyrl_300.eot');
+    src: url('exljbris_-_museo_cyrl_300.eot?#iefix') format('embedded-opentype'),
+         url('exljbris_-_museo_cyrl_300.woff2') format('woff2'),
+         url('exljbris_-_museo_cyrl_300.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Curl';
+    src: url('exljbris_-_museo_cyrl_500.eot');
+    src: url('exljbris_-_museo_cyrl_500.eot?#iefix') format('embedded-opentype'),
+         url('exljbris_-_museo_cyrl_500.woff2') format('woff2'),
+         url('exljbris_-_museo_cyrl_500.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Curl';
+    src: url('exljbris_-_museo_cyrl_700.eot');
+    src: url('exljbris_-_museo_cyrl_700.eot?#iefix') format('embedded-opentype'),
+         url('exljbris_-_museo_cyrl_700.woff2') format('woff2'),
+         url('exljbris_-_museo_cyrl_700.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Curl';
+    src: url('exljbris_-_museo_cyrl_900.eot');
+    src: url('exljbris_-_museo_cyrl_900.eot?#iefix') format('embedded-opentype'),
+         url('exljbris_-_museo_cyrl_900.woff2') format('woff2'),
+         url('exljbris_-_museo_cyrl_900.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}

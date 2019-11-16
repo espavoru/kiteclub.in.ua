@@ -1,0 +1,452 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	#footerwrap .main-col,
+	.footer__copyright .row_inner { 
+		max-width: 96%; 
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.find-us .find-us__info-block h4::before { left: -40px; }
+	
+	.contacts__form .contacts__callback {
+		max-width: 70%;
+		margin: 0 auto;
+	}
+	
+	#page-46 .section__title h2 { font-size: 55px; }
+	#body .post__title--split h1 { font-size: 1.9em; }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 959px) {
+	#header #main-nav a::before { display: none; } /* hide underline in mobile menu */
+	#headerwrap .header-icons { top: 28px; }
+	.school__course-price { margin-bottom: 40px; }
+	.school__btn-order { margin-bottom: 40px; }
+	
+	#body .brands__title h2 {
+		font-size: 45px;
+		line-height: 60px;
+	}
+	
+	#footer .footer-nav li { margin: 0 1%; }
+	#footer .footer__contacts-item { 
+		margin-left: 3%; 
+		font-size: 15px;
+	}
+	
+	#footer .footer__social-btn {
+		width: 30px;
+		height: 30px;
+		line-height: 28px;
+	}
+
+	#footer .footer__contacts-item,
+	#footer .footer__contacts-item .fa { line-height: 36px; }
+	
+	.about .about__text-wrapper {
+		padding-left: 7.9%;
+		padding-right: 2.68%;
+	}
+	
+	#body .about--row-1 .about__text-wrapper {
+		padding-left: 7.94%;
+		padding-right: 5.3%;	
+	}
+	
+	#body .about--row-2 .about__text-wrapper {
+		padding-left: 5.51%;
+		padding-right: 5.32%;
+	}
+	
+	.contacts__adress .section__title--contacts { 
+		margin-top: 60px;
+		font-size: 56px; 
+	}
+	
+	.contacts__callback .callback-title {
+		margin-top: 62px;
+		font-size: 45px;
+	}
+	
+	#page-46 .section__title h2 { font-size: 40px; }
+
+	#body .module_column_9-2-1 { width: 18.9515%;	}
+	#body .module_column_9-2-2 { width: 47.715%;	}
+
+	#body .top-slider__contacts-text {  
+		position: absolute;
+		left: -47px;
+		padding-left: 0; 
+	}
+	
+	#body .top-slider .slide__title { font-size: 70px; line-height: 0.9; } /* slider text fix */
+	
+	#body .top-slider .slide__subtitle { font-size: 45px; line-height: 0.9; } /* slider text fix */
+	
+	#body .product__parallax-row .builder_row_cover { visibility: visible; }
+
+    #body .slide__item--04 .slide__subtitle {
+        line-height: 1.1;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	#body .top-slider__contacts-text { /* contact text size fix */
+		left: -100px;
+		
+		width: 300px;
+		
+		font-size: 17px;
+		text-align: center;
+	}
+	
+	#body .top-slider__contacts-text p:nth-of-type(1) { padding-left: 26px; }
+	#body .top-slider__contacts-text p:nth-of-type(2) { padding-left: 59px; }
+	#body .top-slider__contacts-text p:nth-of-type(3) { padding-right: 34px; }
+	
+	#body .top-slider__contacts-text p::before {
+		width: 25px;
+		height: 25px;
+		
+		background-size: cover;
+	}
+	
+	#body .school__feature-descr { font-size: 20px; }
+	
+	.school { 
+		background-position-x: 80% !important; 
+		background-position-y: 0 !important;
+		background-size: auto !important;
+		background-color: #ccc;
+	}
+	#pagewrap #body .school.school--about-bottom {
+		padding-top: 75px;
+		padding-bottom: 75px;
+		margin-bottom: 0;
+		
+		background-color: transparent ;
+		border-bottom: none;
+	}
+	
+	#body .section__title--find-us {
+  font-size: 60px;
+}
+	
+}
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 680px) {
+	.nextend-bullet-bar { visibility: hidden; } /* slider bullet hide */
+	
+	#body .top-slider__social-wrapper {
+		position: relative;
+		top: -10px;
+		
+		margin-top: -35px;
+		text-align: center;
+	}
+	
+	#body .top-slider__social-btn:hover { border: 2px solid #fff; }
+	
+	#body .top-slider__contacts-wrapper-2 { 
+		display: none;
+		margin-top: -230px; 
+	}
+	
+	#body .top-slider__contacts-text { /* contact text size fix */
+		left: -20px;
+		top: -60px;
+		
+		width: 100%;
+		
+		padding-left: 0;
+		padding-top: 10px;
+	}
+	
+	#body .top-slider__contacts-text p { margin-left: 30px; }
+
+	#body .top-slider__contacts-text a {
+		text-shadow: 1px 1px 2px black, 0 0 1em black;
+	}
+	
+	#body .slide__item--01 {background-position: 26% 50%;}
+	#body .slide__item--03 {background-position: 30% 50%;}
+	
+	
+	#body .section__title { font-size: 60px; }
+	#body .section__title--school { padding-top: 55px; }
+	#body .additional-services { padding-bottom: 80px; }
+	
+	#body .module_column_1013-4-0, 
+	#body .module_column_1013-4-1 { 
+		padding-bottom: 0;
+		border-right: none;
+	}
+	
+	.contacts__callback .callback-title {
+		padding-top: 60px;
+		margin-top: 0;
+	}
+	
+	#body .shop .themify_builder_sub_row { margin-bottom: 0; }
+	#body .shop-item__decor { background-size: cover; }
+	#body .reviews-item p:first-child { font-size: 22px; }
+	
+	#pagewrap #footerwrap { padding-top: 0; }
+	
+	#footer-logo,
+	#footer #footer-nav,
+	.footer__social-wrapper,
+	#footer .footer__contacts { text-align: center; }
+	
+	#footer #footer-nav {
+		margin-top: -20px;
+		margin-bottom: -20px;
+	}
+	
+	#footer .footer__contacts { margin-top: 20px; }
+
+	.about__img {
+		padding-top: 35%;
+		padding-bottom: 35%;
+	}
+	
+	#body .pb0 { padding-bottom: 0; }
+	
+	.sertificate h3 { 
+		padding-top: 30px; 
+		padding-bottom: 20px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	#body #content .n2-ss-layer.top-slider__social-btn a { /* social btn prop */
+		width: 40px;
+		height: 40px;
+		padding: 0;
+
+		font-size: 18px;
+		line-height: 40px;
+	}
+	
+	#body .top-slider .slide__subtitle {  /* slider text fix */
+		padding-right: 4%;
+		font-size: 30px; 
+	}
+	
+	#body .top-slider .slide__title {  /* slider text fix */
+		padding-right: 4%;
+		font-size: 35px; 
+	}
+    
+    #body .slide__item--04 .slide__title {
+        padding-right: 0;
+        
+    }
+
+    #body .slide__item--04 .slide__subtitle {
+        padding-right: 0;
+        font-size: 1.5em;
+    }
+	
+	#body .section__title { font-size: 40px; }
+	
+	#body .school__btn-order {
+		padding-left: 25px;
+		padding-right: 25px;
+		
+		font-size: 21px;
+	}
+	
+	#body .section__title--shop { margin-bottom: 15px; }
+
+	#body .brands__title h2 {
+		margin-top: 35px;
+		margin-bottom: 25px;
+		font-size: 35px;
+		line-height: 40px;
+	}
+	
+	#footer #footer-nav a { font-size: 11px; }
+	
+	.contacts__adress .section__title--contacts {
+		margin-top: 80px;
+		margin-bottom: 50px;
+	}
+	
+	#body .contacts__adress p { padding-right: 5%; }
+	
+	.contacts__callback .callback-title { 
+		margin-bottom: 40px; 
+		font-size: 35px;
+	}
+	
+	.contacts__form .contacts__callback { max-width: 90%; }
+	
+	.find-us .find-us__info-block h4 { font-size: 25px; }
+   
+   .wpcf7-form-control.g-recaptcha.wpcf7-recaptcha {
+      max-width: 220px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 375px) { 
+   .table-main--akcia { /* Table overflow small sizes fix */
+      font-size: 0.7em;
+  }
+   
+   .table-main td, .table-main th, .table-procat td, .table-procat th { /* Table overflow small sizes fix */
+      padding: 5px;
+      font-size: 0.5em; 
+      line-height: 1.5em;
+   }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	.contacts__adress .section__title--contacts {
+		margin-left: 0;
+		text-align: center;
+	}
+	
+	.find-us .find-us__info-block { padding-left: 14.4%; }
+	
+	.contacts__adress { margin-bottom: 40px; }
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	#headerwrap #header { max-width: 960px; } /* header width fix */
+	#main-nav li:last-child,
+	#footer-nav li:last-child { margin-right: 0; } /* margin fix for last menu item */
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	#pagewrap #headerwrap #header {  /* paddings for header container */
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+	
+/*	#footer .themify_builder_row .row_inner  { padding: 0 4%; }*/
+	
+	.top-slider__social-wrapper { padding-left: 6.52%; } /* social container padding fix */
+	
+	#body .themify_builder_row.fullwidth .row_inner { /* container max width 100% */
+		width: 100%;
+		max-width: 100%;
+	}
+	
+	#footerwrap .main-col,
+	.footer__copyright .row_inner,
+	#footer .themify_builder_row .row_inner,
+	#body .themify_builder_row .row_inner { /* container max width 1260px for fixed block layout */
+		max-width: 96%;
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#pagewrap #headerwrap #header { 
+		max-width: 1260px; 
+		width: inherit;
+	}
+	
+	.contacts__adress .section__title--contacts {
+		margin-left: 6.57%;
+		text-align: left;	
+	}
+	
+	.find-us .find-us__info-block { padding-left: 19.4%; }
+	
+	
+	.contacts__form .contacts__callback {
+		max-width: 60%;
+		margin: 0 0 0 16%;
+	}
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1281px) {
+	#pagewrap #headerwrap #header {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	#body .themify_builder_row.fullwidth .row_inner {
+		width: 100%;
+		max-width: 100%;
+	}
+	
+	#footer .main-col,
+	.footer__copyright .row_inner,
+	#body .themify_builder_row .row_inner,
+	#footer .themify_builder_row .row_inner { /* container max width 1570px for fixed block layout */
+		max-width: 1570px;
+		width: auto;
+/*		padding: 0 10px;*/
+	}
+	
+	#body .themify_builder_row.about .row_inner { 
+		max-width: 1920px; 
+		padding: 0;
+	}
+	
+	#footer .main-col { margin: 0 auto ;}
+	
+	#pagewrap #headerwrap #header { max-width: 1570px; }
+/*	.school__questions-block { text-align: left; }*/
+	.school__course-price { text-align: right; }
+	.contacts__adress { padding-left: 6.8%; }
+	.find-us .find-us__info-block { padding-left: 16.5%; }
+}
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (min-width : 1921px) {
+	#body .module_column_1013-2-1 { width: 18.952%; } /* fix decor */
+	#body .module_column_1013-2-2 { width: 47.715%; }
+}
+
+/************************************************************************************
+VISIBILITY CONTROLS - to hide rows/modules
+*************************************************************************************/
+/* hide desktop */
+@media screen and (min-width: 960px) {
+	body:not(.themify_builder_active) .hide_desktop {
+		display: none !important;
+	}
+}
+/* hide tablet */
+@media screen and (min-width: 481px) and (max-width: 959px) {
+	body:not(.themify_builder_active) .hide_tablet {
+		display: none !important;
+	}
+}
+/* hide mobile */
+@media screen and (max-width: 480px) {
+	body:not(.themify_builder_active) .hide_mobile {
+		display: none !important;
+	}
+}
