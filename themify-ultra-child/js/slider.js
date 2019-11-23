@@ -1,7 +1,6 @@
 { "column_order": 0, "grid_class": "col-full", "modules": { "0": { "mod_name": "slider", "mod_settings": { "layout_display_slider": "text", "post_type": "post", "taxonomy": "category", "blog_category_slider": "0|multiple", "order_slider": "desc", "orderby_slider": "date", "display_slider": "content", "text_content_slider": 
     [
     { "text_caption_slider": "<div class=\"slide__item--04\"><div class=\"slide__overlay\"><div class=\"slide__title\">Модели 2020</div><h2 class=\"slide__subtitle\">Кайты Eleveight 2020 уже в продаже</h2></div></div>" }, 
-    { "text_caption_slider": "<div class=\"slide__item--05\"><div class=\"slide__overlay\"><div class=\"slide__title\">Акция до 1 июня</div><h2 class=\"slide__subtitle\">Обучение кайтбордингу 300$</h2></div></div>" }, 
     { "text_caption_slider": "<div class=\"slide__item--01\"><h2 class=\"slide__subtitle\">Кайтбординг</h2><div class=\"slide__title\">Безопасно и<br />экстремально</div></div>" }, 
     { "text_caption_slider": "<div class=\"slide__item--02\"><h2 class=\"slide__subtitle\">Кайтбординг</h2><div class=\"slide__title\">Под силу<br />каждому</div></div>" }, 
     { "text_caption_slider": "<div class=\"slide__item--03\"><h2 class=\"slide__subtitle\">Кайтбординг</h2><div class=\"slide__title\">Почувствуй<br />полную свободу</div></div>" }
