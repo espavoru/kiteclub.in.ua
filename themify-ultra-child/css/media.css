@@ -418,7 +418,7 @@
 	
 	#pagewrap #headerwrap #header { max-width: 1570px; }
 /*	.school__questions-block { text-align: left; }*/
-	.school__course-price { text-align: right; }
+	.school__course-price { text-align: center; }
 	.contacts__adress { padding-left: 6.8%; }
 	.find-us .find-us__info-block { padding-left: 16.5%; }
 }
