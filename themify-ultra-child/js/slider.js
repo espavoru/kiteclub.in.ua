@@ -8,6 +8,15 @@
     ], 
     "layout_slider": "slider-default", "visible_opt_slider": "1", "auto_scroll_opt_slider": "6", "scroll_opt_slider": "1", "speed_opt_slider": "fast", "effect_slider": "crossfade", "pause_on_hover_slider": "false", "wrap_slider": "yes", "show_nav_slider": "yes", "show_arrow_slider": "no", "height_slider": "variable", "css_slider": "top-slider", "checkbox_padding_apply_all": "padding", "checkbox_margin_apply_all": "margin", "checkbox_border_apply_all": "border", "custom_parallax_scroll_reverse_reverse": "reverse", "custom_parallax_scroll_fade_fade": "fade", "visibility_desktop_hide": "hide", "visibility_tablet_hide": "hide", "visibility_mobile_hide": "hide" } } }, "component_name": "column" }
 
+// Brands slider
+{"elType":"module","mod_name":"slider","mod_settings":{"layout_display_slider":"text","post_type":"post","taxonomy":"category","blog_category_slider":"0|multiple","portfolio_category_slider":"0|multiple","order_slider":"desc","orderby_slider":"date","display_slider":"content","text_content_slider":
+    [
+        {"text_caption_slider":"<div class=\"brand-item--01\"><a href=\"vse-tovary/?filter_brand=xenon-boards\"><img src=\"wp-content/uploads/2017/02/img-brand-01.png\" alt=\"\" /></a></div>"},
+        {"text_caption_slider":"<div class=\"brand-item--02\"><a href=\"vse-tovary/?filter_brand=best-kiteboarding\"><img src=\"wp-content/uploads/2019/11/eleveight_logo.jpg\" alt=\"\" /></a></div>"},{"text_caption_slider":"<div class=\"brand-item--03\"><a href=\"vse-tovary/?filter_brand=flying-objects\"><img src=\"wp-content/uploads/2017/02/img-brand-03.png\" alt=\"\" /></a></div>"},{"text_caption_slider":"<div class=\"brand-item--04\"><a href=\"#\"><img src=\"wp-content/uploads/2017/02/img-brand-04x.jpg\" alt=\"\" /></a></div>"}
+    ],
+"layout_slider":"slider-default","visible_opt_slider":"3","auto_scroll_opt_slider":"5","scroll_opt_slider":"1","speed_opt_slider":"normal","effect_slider":"scroll","pause_on_hover_slider":"resume","wrap_slider":"yes","show_nav_slider":"yes","show_arrow_slider":"no","height_slider":"variable","css_slider":"brands__slider-01 hide_tablet hide_mobile","checkbox_padding_apply_all":"padding","checkbox_margin_apply_all":"margin","checkbox_border_apply_all":"border","custom_parallax_scroll_reverse_reverse":"reverse","custom_parallax_scroll_fade_fade":"fade","visibility_desktop_hide":"hide","visibility_tablet_hide":"hide","visibility_mobile_hide":"hide"},"component_name":"module"}
+
+
 // Feelback slider
 {"elType":"module","mod_name":"slider","mod_settings":{"layout_display_slider":"text","post_type":"post","taxonomy":"category","blog_category_slider":"0|multiple","portfolio_category_slider":"0|multiple","order_slider":"desc","orderby_slider":"date","display_slider":"content","text_content_slider":
     [
