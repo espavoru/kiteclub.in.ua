@@ -1,4 +1,4 @@
-/*
+/* 
 Theme Name: Ultra-child
 Description: SKC theme
 Author: Olefirenko Oleg
@@ -579,7 +579,7 @@ body {
 }
 
 /**
-* Shop
+* Shop Woo
 */
 .shop {
   padding-top: 75px;
@@ -672,6 +672,10 @@ body {
   font-weight: bold;
   color: #ed1e24;
 }
+
+#cart-icon {display: none;}
+.page-id-46 #cart-icon {display: block;}
+.woocommerce #cart-icon {display: block;}
 
 /**
 * Oficial dealer / Brands
