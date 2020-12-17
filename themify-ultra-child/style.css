@@ -160,6 +160,8 @@ body {
 
 .module_row_9-1,
 .module_row_9-2 {
+  /* 1px height fix */
+  height: 0;
   line-height: 0;
 }
 
@@ -197,7 +199,7 @@ body {
 }
 
 .slide__item--04 {
-  background-image: url("../../uploads/2019/11/kite_picture_fs3x.jpg");
+  background-image: url("../../uploads/2020/12/top-slider-item-06.jpg");
 }
 
 .slide__item--05 {
@@ -673,9 +675,15 @@ body {
   color: #ed1e24;
 }
 
-#cart-icon {display: none;}
-.page-id-46 #cart-icon {display: block;}
-.woocommerce #cart-icon {display: block;}
+#cart-icon {
+  display: none;
+}
+.page-id-46 #cart-icon {
+  display: block;
+}
+.woocommerce #cart-icon {
+  display: block;
+}
 
 /**
 * Oficial dealer / Brands
